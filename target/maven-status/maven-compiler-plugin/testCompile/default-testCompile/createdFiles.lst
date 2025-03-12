@@ -1,3 +1,4 @@
+testCases\TC004_SearchProduct.class
 testCases\TC003_LoginWithTestData.class
 utilities\ExtendReportManager.class
 utilities\dataProviders.class

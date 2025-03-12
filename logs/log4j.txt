@@ -1,0 +1,7 @@
+2025-03-12 19:08:33,969 [main] INFO  {} t.TC001_accountRegistration_Test.verify_account_registration:22 - *****Starting Test case001*****
+2025-03-12 19:08:34,163 [main] INFO  {} t.TC001_accountRegistration_Test.verify_account_registration:28 - *****Clicked on my account link*****
+2025-03-12 19:08:34,479 [main] INFO  {} t.TC001_accountRegistration_Test.verify_account_registration:30 - *****Customer Registration*****
+2025-03-12 19:08:35,658 [main] INFO  {} t.TC001_accountRegistration_Test.verify_account_registration:41 - *****Clicked on continue button*****
+2025-03-12 19:08:35,696 [main] INFO  {} t.TC001_accountRegistration_Test.verify_account_registration:51 - *****Finished executing Test-case001*****
+2025-03-12 19:08:37,815 [main] INFO  {} t.TC002_LoginTest.verify_Login:17 - ***user logging in to the application***
+2025-03-12 19:08:39,376 [main] INFO  {} t.TC002_LoginTest.verify_Login:29 - *****finished TC002-LoginTest*****
