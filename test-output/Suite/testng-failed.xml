@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="FireFoxBrowser(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC001_accountRegistration_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_account_registration"/>
+        </methods>
+      </class> <!-- testCases.TC001_accountRegistration_Test -->
+    </classes>
+  </test> <!-- FireFoxBrowser(failed) -->
+  <test thread-count="2" parallel="tests" name="ChromeBroser(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC001_accountRegistration_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_account_registration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC001_accountRegistration_Test -->
+    </classes>
+  </test> <!-- ChromeBroser(failed) -->
+  <test thread-count="2" parallel="tests" name="EdgeBrowser(failed)">
+    <parameter name="os" value="edge"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC001_accountRegistration_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verify_account_registration"/>
+        </methods>
+      </class> <!-- testCases.TC001_accountRegistration_Test -->
+    </classes>
+  </test> <!-- EdgeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
